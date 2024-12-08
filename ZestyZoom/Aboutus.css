@@ -1,0 +1,13 @@
+
+h1{
+    text-align:center;
+    text-decoration:wavy underline;
+}
+body{
+    background-image:url("aboutus\ bg.jpg");
+    background-size:cover;
+}
+.aboutus-content p{
+    line-height:25px;
+    font-family:cursive;
+}

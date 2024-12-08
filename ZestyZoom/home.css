@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    font-family:arial;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#961F01;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:60px;
+    width:100px;
+}
+.logo{
+    background-image:url("zestyzoomlogo.jpeg");
+    height:50px;
+    width:100%;
+    background-size:cover;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px dashed yellow;
+}
+.address{
+    color:#DDDDDD;
+    font-size:0.85rem;
+    margin-left:15px;
+}
+.place{
+    font-size:1rem;
+    margin-left:3px;
+}
+.add-icon{
+    display:flex;
+    align-items:center;
+}
+.nav-search{
+    display:flex;
+    justify-content:space-evenly;
+    width:700px;
+    height:40px;
+    border-radius:4px;
+}
+.nav-search:hover{
+    border:2px solid yellow;
+    transform:skew(12deg);
+}
+.search-select{
+    background-color:yellow;
+    width:100px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.nav-search button{
+    width:45px;
+    height:40px;
+    background-color:yellow;
+    font-size:1rem;
+    border:none;
+    border-top-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.nav-cart{
+    display:flex;
+}
+.nav-cart i{
+    font-size:28px;
+    height:20px;
+}
+.nav-cart p{
+    font-size:14px;
+    font-weight:700;
+    position:relative;
+    top:12px;
+}
+.hero-section{
+    background-image:url("heroimgzesty.jpg");
+    background-size:cover;
+    height:400px;
+}
+.buy-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-image:url("aboutus\ bg.jpg");
+    background-size:cover;
+}
+.box{
+    width:31%;
+    height:325px;
+    border:2px solid black;
+    border-radius:20px;
+    background-color:#DDDDDD;
+    text-align:center;
+}
+h2{
+    background-color:rgba(0,0,0,0.2);
+    color:#FFFFFF;
+}
+.box button{
+    font-size:14px;
+    background-color:#961F01;
+    color:yellow;
+    width:200px;
+    height:40px;
+    margin-top:2px;
+    border-color:yellow;
+    border-radius:20px;
+}
+.box1-img{
+    background-image:url("cholebhature.png");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.box2-img{
+    background-image:url("dosa.png");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.box3-img{
+    background-image:url("chillipotato.png");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.box4-img{
+    background-image:url("momos.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box5-img{
+    background-image:url("noodles.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box6-img{
+    background-image:url("pizza.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box7-img{
+    background-image:url("burger\ png.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box8-img{
+    background-image:url("paneer.png");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.box9-img{
+    background-image:url("soyachaap.png");
+    width:100%;
+    height:250px;
+    background-size:cover;
+}
+.box10-img{
+    background-image:url("thali.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box11-img{
+    background-image:url("sushi.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.box12-img{
+    background-image:url("garlicbread.png");
+    width:100%;
+    height:250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.sign-in{
+    text-align:center;
+    font-size:14px;
+    background-color: rgb(124, 173, 173);
+}
+.sign-in button{
+    background-color: #961F01;
+    border-color:yellow;
+    border-radius:10px;
+    color:yellow;
+    width: 100px;
+    height:40px;
+}
+.sign-in a:hover{
+    text-decoration:underline;
+    color:#961F01;
+}
+.logo-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:70px;
+}
+footer{
+    background-color:#961F01;
+    height:120px;
+}
+.logo-img{
+    background-image:url("zestyzoomlogo.jpeg");
+    background-size:cover;
+    width:100px;
+    height:60px;
+}
+.copyright{
+    color:#DDDDDD;
+    font-size:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
